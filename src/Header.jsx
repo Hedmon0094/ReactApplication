@@ -1,19 +1,15 @@
 function Header() {
   return (
     <header>
-      <h1>My Blog</h1>
+      <h1 className="blog">React APP</h1>
       <nav>
-        <ul>
+        <ul className="nav">
             <li><a href="">Home</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="">Services</a></li>
-                        <li><a href="">Blog</a></li>
-            <li><a href="">Projects</a></li>
-                        <li><a href="">Services</a></li>
-
-
-
-
+            <li><a href="services">Services</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="services">Services</a></li>
         </ul>
       </nav>
       <hr />
